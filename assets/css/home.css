@@ -1,0 +1,215 @@
+/*swiper*/
+
+
+.hero-swiper .swiper-button-prev,
+.hero-swiper .swiper-button-next {
+    color: black;
+}
+
+@media (max-width:720px) {
+
+    .hero-swiper h1,
+    .hero-swiper p {
+        font-size: 20px !important;
+    }
+
+}
+
+@media (max-width:540px) {
+
+    .hero-swiper h1,
+    .hero-swiper p {
+        font-size: 15px !important;
+    }
+
+}
+
+/*brand adds */
+
+.brand-adds {
+    flex: 1 1 auto
+}
+
+/* .info-card */
+.info-card {
+    padding: 20px;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.info-card button {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(241, 241, 243, 1);
+    color: rgba(255, 149, 0, 1);
+    border-radius: 8px;
+}
+
+.info-card button:hover {
+    transition: 1s ease-in-out;
+    transform: rotateZ(-5deg)
+}
+
+
+/* course card  */
+
+.course-card {
+    border-radius: 16px;
+    padding: 2rem;
+
+
+}
+
+.course-card-avatar {
+    border-radius: 18px;
+    overflow: hidden;
+
+}
+
+
+.course-card:hover img {
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
+
+.course-card-avatar img {
+    width: 100%;
+}
+
+.course-card-info {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chips {
+    display: inline-block;
+    border-radius: 8px;
+    margin: 2px;
+    box-shadow: 0 0 1px rgb(115, 115, 115);
+    padding: 5px;
+    text-align: center;
+}
+
+.course-card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.course-card:hover .default-btn {
+    color: rgba(255, 149, 0, 1);
+    ;
+}
+
+/* testimonials-card */
+.testimonials-card {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+
+}
+
+.testimonials-card-info {
+    border-top: 1px solid rgb(237, 237, 237);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+
+.testimonials-avatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* pricing */
+
+.accordion-button:focus {
+    background-color: rgba(255, 244, 229, 1);
+    box-shadow: unset;
+    color: unset;
+
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: rgba(255, 244, 229, 1);
+    color: black;
+    box-shadow: unset
+}
+
+.accordion-button::after {
+    background-image: url(/assets/img/xmark-solid-full.svg);
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/img/xmark-solid-full.svg);
+
+
+}
+
+.tab-content>.active {
+    display: flex;
+}
+
+.tab-content .active {
+    background-color: unset;
+    border-radius: unset;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgba(255, 149, 0, 1);
+    border-radius: 8px;
+}
+
+.nav-pills .nav-link {
+    color: #000;
+    border-radius: 8px;
+}
+
+.nav-pills {
+    background-color: #fff;
+    width: 12.5rem;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+
+
+.pricing-card {
+    box-shadow: 0 0 2px gray;
+}
+
+.feature p {
+    box-shadow: 0 0 1px gray;
+
+}
+
+
+.feature p::before {
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background-color: rgba(255, 244, 229, 1);
+    background-image: url(/assets/img/check-solid-full.svg);
+    background-repeat: no-repeat;
+
+}
+
+.feature:not(.include) p::before {
+
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background-color: white;
+    background-image: url(/assets/img/xmark-solid-full.svg);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact-us.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="container-fluid my-2">
+            <div class="bg-primary  text-center rounded-2 py-1">
+                <a href="pricing.html" class="text-light sales">Free courses <i
+                        class="fa-solid fa-star text-warning"></i> sale
+                    ends soon
+                    ,get it Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-lg">
+
+                <a class="navbar-brand " href="home.html"><img src="assets/img/E-learning.svg"
+                        alt="E-learning logo"></a>
+                <div class="d-flex gap-2 order-lg-1 ">
+                    <div class="d-flex align-items-center gap-3 ">
+                        <button id="language" class="brand-btn rounded-circle">ar</button>
+                        <button class="night-mood" id="change_mood">
+                            <i class="fa-regular fa-sun"></i>
+                            <i class="fa-regular fa-moon"></i>
+                        </button>
+                        <a href="sign-up.html" class="sing-up-btn ">Sign Up</a>
+                        <a href="log-in.html" class="brand-btn">Login</a>
+                    </div>
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact-us.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="company-gallary.html">company</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 my-2">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="col-lg-6 my-2">
+                    <p>Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to
+                        your needs: Free and Pro. We believe in providing flexible and affordable pricing options for
+                        our services. Whether you're an individual looking to enhance your skills or a business seeking
+                        professional development solutions, we have a plan that suits you. Explore our pricing options
+                        below and choose the one that best fits your requirements.</p>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+
+    <main>
+        <section class="container bg-white card-rounded-lg my-5" data-aos="flip-right" data-aos-duration="1000">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+
+                    <form action="#" class="p-3">
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <div>
+                                    <label for="firstName " class="form-label">firstName</label>
+                                    <input type="text" id="firstName" placeholder="Enter First Name "
+                                        class="form-control" required minlength="3" maxlength="10">
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <div>
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" id="lastName" placeholder="Enter Last Name" class="form-control"
+                                        required minlength="3" maxlength="10">
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <div>
+                                    <label for="emil" class="form-label">Email</label>
+                                    <input type="email" id="emil" placeholder="Enter your Email" class="form-control"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-6 my-2">
+                                <div>
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="tel" id="phone" placeholder="Enter your Number" class="form-control"
+                                        minlength="9" maxlength="15" required>
+                                </div>
+                            </div>
+                            <div class="col-12 my-2">
+                                <div>
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" id="subject" placeholder="Enter your Subject"
+                                        class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-12 my-2">
+                                <div>
+                                    <label for="massage" class="form-label">Massage</label>
+                                    <textarea name="massage" id="massage" rows="5"
+                                        placeholder="Enter your Message here ..." class="form-control" required>
+                                    </textarea>
+
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center my-2"> <button type="submit" class="brand-btn">
+                                    Send
+                                    your
+                                    Message </button></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-md-3 contact-us">
+                    <div class="row">
+                        <div class="col-12  py-3">
+                            <div class="contact-box d-flex flex-column align-items-center justify-content-center">
+
+                                <div class=" d-flex ">
+                                    <a href=" mailto:" class="text-body text-center"><i
+                                            class="fa-solid fa-envelope "></i>
+                                        <p> hamza@gmail.com</p>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-12 py-3">
+                            <div class="contact-box d-flex flex-column align-items-center justify-content-center">
+
+                                <div class=" d-flex flex-column contact ">
+                                    <a href=" tel:+" class="
+                                        text-body text-center"><i class="fa-solid fa-phone"></i>
+                                        <p> 0933 00000000</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12  py-3">
+                            <div class="contact-box d-flex flex-column align-items-center justify-content-center">
+
+                                <div class=" d-flex flex-column">
+                                    <a href="https://www.google.com/maps/place/Syria" class="text-body text-center">
+                                        <i class="fa-solid fa-location-dot"></i>
+
+                                        <p>syria</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12  py-3">
+                            <div class="contact-box d-flex flex-column align-items-center justify-content-center">
+
+                                <div class="d-flex gap-2 align-items-center text-center social">
+                                    <a href="#"><i class="fa-brands fa-square-facebook text-body"></i></a>
+                                    <a href="#"><i class="fa-brands fa-square-x-twitter text-body"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin text-body"></i></a>
+                                </div>
+                                <p> Social Profiles</p>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer mt-5">
+        <div class="container-lg ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 ">
+                    <ul class="contact">
+                        <a href="#"> <img src="assets/img/E-learning.svg" alt="E-learning"></a>
+                        <li><a href="mailto:"><i class="fa-solid fa-envelope"></i> hamza@gmail.com</a></li>
+                        <li><a href="tel:+"><i class="fa-solid fa-phone"></i>0933567</a></li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/Syria"><i
+                                    class="fa-solid fa-location-dot"></i>syria</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="home ">Home
+                        <li><a href="home.html#benefits">Benefits<div class="line"></div></a></li>
+                        <li><a href="home.html#courses">Our Courses<div class="line"></div></a></li>
+                        <li><a href="home.html#testimonials">Our Testimonials<div class="line"></div></a></li>
+                        <li><a href="home.html#FAQ">Our FAQ<div class="line"></div></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="about-us ">About Us
+                        <li><a href="About-us.html#">Company<div class="line"></div></a></li>
+                        <li><a href="About-us.html#achievements">Achievements<div class="line"></div></a></li>
+                        <li><a href="About-us.html#goal">Our Goal<div class="line"></div></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 ">
+                    <ul class=" gap-2 social-contact ">
+                        Social Profiles
+                        <div class="d-flex gap-2 align-items-center text-center">
+                            <li><a href="#"><i class="fa-brands fa-square-facebook "></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-top border-3 py-3 text-muted"><cite>&copy; 2023 Skillbridge. All rights
+                    reserved.</cite>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+
+
+    <script src="assets/java/java.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+
+        });
+    </script>
+
+</body>
+
+</html>

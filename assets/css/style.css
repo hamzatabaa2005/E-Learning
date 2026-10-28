@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: rgba(241, 241, 243, 1);
+}
+
+@media (max-width:720px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:540px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+button {
+    background-color: rgba(247, 247, 248, 1);
+    border: none
+}
+
+/* ******************* */
+
+
+
+
+.sales:hover {
+    color: rebeccapurple !important;
+}
+
+.bg-primary {
+    background-color: rgba(255, 149, 0, 1) !important;
+}
+
+.bg-secondary {
+    background-color: rgba(255, 244, 229, 1) !important;
+}
+
+.bg-dark-white {
+    background-color: rgba(241, 241, 243, 1) !important;
+}
+
+.text-primary {
+    color: rgba(255, 149, 0, 1) !important;
+}
+
+.active {
+    background-color: rgb(229, 229, 229);
+    border-radius: 8px;
+}
+
+.nav-link {
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 149, 0);
+    color: black;
+    border-radius: 8px;
+
+
+    transition: background-color 1s linear;
+
+}
+
+
+
+.fixed-navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0.1rem 0;
+    background-color: rgba(255, 149, 0, 1);
+
+}
+
+.fixed-navbar .nav-link:hover {
+    background-color: rgba(93, 70, 42, 0.311);
+    box-shadow: inset 0 0 10px rgb(241, 173, 16);
+    color: white;
+    border-radius: 8px;
+    transition: background-color 1s linear;
+
+}
+
+.fixed-navbar .brand-btn {
+    box-shadow: inset 0 0 5px black
+}
+
+.fixed-navbar .active {
+    background-color: rgba(255, 193, 107, 0.5);
+}
+
+.fixed-navbar .sing-up-btn:hover {
+    border: rgb(18, 14, 8) 2px solid;
+    box-shadow: inset 0 0 100px rgba(255, 190, 0, 1);
+    transition: border 2s ease-in-out linear;
+    ;
+}
+
+
+.brand-btn,
+.default-btn,
+.sing-up-btn {
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+
+
+.brand-btn:hover,
+.default-btn:hover,
+.sing-up-btn:hover {
+    color: black;
+    transform: scale(1.05);
+    transition: all 0.5s;
+
+}
+
+
+.default-btn:hover,
+.sing-up-btn:hover {
+
+    border: rgba(255, 149, 0, 1) 2px solid;
+    transition: border 2s ease-in-out linear;
+
+}
+
+.default-btn:hover {
+    color: rgba(255, 149, 0, 1);
+}
+
+.brand-btn {
+
+    background-color: rgba(255, 149, 0, 1);
+    color: white;
+
+}
+
+.default-btn {
+    background-color: white;
+    color: black;
+
+}
+
+.sing-up-btn {
+    color: black;
+
+}
+
+
+.card-rounded-sm {
+    border-radius: 12px;
+}
+
+.card-rounded-md {
+    border-radius: 12px;
+}
+
+.card-rounded-lg {
+    border-radius: 24px;
+}
+
+/* footer */
+
+.footer li {
+    margin: 10px 0;
+}
+
+.social-contact a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: black;
+    background-color: rgb(229, 229, 229);
+    border-radius: 8px;
+}
+
+.footer .social-contact a:hover {
+    color: black;
+    transform: scale(1.5);
+
+    transition: 1s;
+
+}
+
+
+
+.home a,
+.about-us a {
+    color: rgba(89, 89, 90, 1);
+}
+
+.contact a {
+    color: black;
+
+}
+
+.footer .contact a:hover {
+    color: rgba(255, 149, 0, 1);
+    transition: color 0.5s linear;
+}
+
+
+.footer .home a:hover,
+.footer .about-us a:hover {
+    color: rgba(255, 149, 0, 1);
+    transition: color 1s linear;
+
+}
+
+
+.footer a {
+    display: inline-block;
+}
+
+a .line {
+    height: 0%;
+    width: 0%;
+    transform: scale(0, 0);
+    transition: width 1s linear;
+
+
+}
+
+a:hover>.line {
+
+    height: 0.2rem;
+    background-color: rgba(255, 149, 0, 1);
+    width: 100%;
+    transform: scale(1, 1);
+}
+
+.night-mood {
+    border-radius: 8px;
+    background-color: rgb(241, 173, 16);
+}
+
+
+.fa-sun {
+    display: none;
+}
+
+.clicked .fa-sun {
+    display: block;
+
+}
+
+.clicked .fa-moon {
+    display: none;
+}
+
+.dark-colors {
+    background-color: #141313;
+
+}
+
+.dark-colors * {
+    background-color: #141313 !important;
+}
+
+.dark-colors p,
+.dark-colors h1,
+.dark-colors h2,
+.dark-colors h3,
+.dark-colors .nav-link,
+.dark-colors .sing-up-btn,
+.dark-colors .night-mood,
+.dark-colors .default-btn,
+.dark-colors .brand-btn,
+.dark-colors input,
+.dark-colors .accordion-button,
+.dark-colors .chips,
+.dark-colors .footer .social-contact a,
+.dark-colors .footer .contact a {
+    color: white !important;
+}
+
+.dark-colors .nav-link:hover,
+.dark-colors .default-btn:hover,
+.dark-colors .brand-btn:hover,
+.dark-colors .footer .contact a:hover {
+    color: rgba(255, 190, 0, 1) !important;
+
+}
+
+.dark-colors .testimonials-card,
+.dark-colors .info-card,
+.dark-colors .course-card,
+.dark-colors .sing-up-btn,
+.dark-colors .default-btn,
+.dark-colors .brand-btn,
+.dark-colors .card-rounded-lg,
+.dark-colors .card-rounded-md,
+.dark-colors .chips {
+    box-shadow: 0 0 5px rgba(255, 190, 0, 1);
+}
+
+.dark-colors mark {
+    color: white;
+    background: rgba(255, 190, 0, 1) !important;
+}

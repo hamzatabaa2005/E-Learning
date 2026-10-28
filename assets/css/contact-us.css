@@ -1,0 +1,39 @@
+.form-control,
+textarea {
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(241, 241, 243, 1);
+    padding: 0.5rem;
+    box-shadow: inset 0 0 1px gray;
+    caret-color: rgba(255, 149, 0, 1);
+    outline: none;
+
+}
+
+.form-control:focus,
+textarea:focus {
+    box-shadow: inset 0 0 5px gray;
+}
+
+textarea {
+    resize: none;
+}
+
+
+.contact-box {
+    background-color: rgba(241, 241, 243, 1);
+    box-shadow: inset 0 0 2px gray;
+    height: 100px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.contact-us a:hover {
+    color: rgba(255, 149, 0, 1) !important;
+    transition: color 0.5s linear;
+}
+
+.social a:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}

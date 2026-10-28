@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid my-2">
+            <div class="bg-primary  text-center rounded-2 py-1">
+                <a href="pricing.html" class="text-light sales">Free courses <i
+                        class="fa-solid fa-star text-warning"></i> sale
+                    ends soon
+                    ,get it Now <i class="fa-solid fa-arrow-right "></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-lg">
+
+                <a class="navbar-brand " href="home.html"><img src="assets/img/E-learning.svg"
+                        alt="E-learning logo"></a>
+                <div class="d-flex gap-2 order-lg-1 ">
+                    <div class="d-flex align-items-center gap-3 ">
+                        <button id="language" class="brand-btn rounded-circle">ar</button>
+                        <button class="night-mood" id="change_mood">
+                            <i class="fa-regular fa-sun"></i>
+                            <i class="fa-regular fa-moon"></i>
+                        </button>
+                        <a href="sign-up.html" class="sing-up-btn ">Sign Up</a>
+                        <a href="log-in.html" class="brand-btn">Login</a>
+                    </div>
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact-us.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="company-gallary.html">company</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+
+        <div class="d-flex align-items-start ">
+
+            <div class="nav flex-column nav-pills off me-3  " id="v-pills-tab" role="tablist"
+                aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-Understanding-UI-UX-Design-Principles-tab"
+                    data-bs-toggle="pill" data-bs-target="#v-pills-Understanding-UI-UX-Design-Principles" type="button"
+                    role="tab" aria-controls="v-pills-Understanding-UI-UX-Design-Principles"
+                    aria-selected="false">Understanding
+                    UI/UX Design Principles</button>
+                <button class="nav-link" id="v-pills-Importance-of-User-Centered-Design-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Importance-of-User-Centered-Design" type="button" role="tab"
+                    aria-controls="v-pills-Importance-of-User-Centered-Design" aria-selected="false" Importance of
+                    User-Centered Design>Importance of User-Centered Design</button>
+                <button class="nav-link" id="v-pills-Understanding-UI-UX-Design-Principles-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Understanding-UI-UX-Design-Principles1" type="button" role="tab"
+                    aria-controls="v-pills-Understanding-UI-UX-Design-Principles1" aria-selected="false">Understanding
+                    UI/UX Design Principles</button>
+                <button class="nav-link" id="v-pills-Importance-of-User-Centered-Design-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-Importance-of-User-Centered-Design1" type="button" role="tab"
+                    aria-controls="v-pills-Importance-of-User-Centered-Design1" aria-selected="false">Importance of
+                    User-Centered Design</button>
+            </div>
+
+
+            <button class="btn brand-btn d-lg-none lesson-btn " type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvaslesson" aria-controls="offcanvaslesson">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvaslesson"
+                aria-labelledby="offcanvaslessonLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvaslessonLabel">UI/UX Design Course</h5>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="nav flex-column nav-pills me-3  " id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-Understanding-UI-UX-Design-Principles-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-Understanding-UI-UX-Design-Principles"
+                            type="button" role="tab" aria-controls="v-pills-Understanding-UI-UX-Design-Principles"
+                            aria-selected="false">Understanding
+                            UI/UX Design Principles</button>
+                        <button class="nav-link" id="v-pills-Importance-of-User-Centered-Design-tab"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-Importance-of-User-Centered-Design"
+                            type="button" role="tab" aria-controls="v-pills-Importance-of-User-Centered-Design"
+                            aria-selected="false" Importance of User-Centered Design>Importance of User-Centered
+                            Design</button>
+                        <button class="nav-link" id="v-pills-Understanding-UI-UX-Design-Principles-tab1"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-Understanding-UI-UX-Design-Principles1"
+                            type="button" role="tab" aria-controls="v-pills-Understanding-UI-UX-Design-Principles1"
+                            aria-selected="false">Understanding
+                            UI/UX Design Principles</button>
+                        <button class="nav-link" id="v-pills-Importance-of-User-Centered-Design-tab1"
+                            data-bs-toggle="pill" data-bs-target="#v-pills-Importance-of-User-Centered-Design1"
+                            type="button" role="tab" aria-controls="v-pills-Importance-of-User-Centered-Design1"
+                            aria-selected="false">Importance of
+                            User-Centered Design</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content w-100" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-Understanding-UI-UX-Design-Principles"
+                    role="tabpanel" aria-labelledby="v-pills-Understanding-UI-UX-Design-Principles-tab" tabindex="0">
+                    <div class="container my-5">
+                        <h1>Understanding UI/UX Design Principles</h1>
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <video src="" poster="assets/img/courses-img/video-2.png" class="w-100 "></video>
+                            </div>
+                            <article class="col-12 my-3">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste at libero error!
+                                    Deleniti, optio
+                                    eius dolore sunt et, quaerat debitis quia accusantium blanditiis culpa nesciunt,
+                                    alias
+                                    praesentium doloribus. Soluta consequatur modi porro commodi iusto nulla cum esse
+                                    suscipit
+                                    architecto sunt libero autem ex aliquid incidunt eius laudantium voluptates aliquam,
+                                    qui nobis,
+                                    unde dolorem ratione neque? Corporis, quasi! Optio, velit iste. Labore suscipit
+                                    voluptas,
+                                    blanditiis quas aut quibusdam incidunt eaque molestiae delectus nihil quam illum
+                                    asperiores
+                                    aliquam ea totam, sit vel animi reprehenderit neque, laborum modi non tenetur
+                                    commodi maiores?
+                                    Voluptas ab maxime repellendus minima voluptatem aperiam fugiat porro laudantium
+                                    amet nostrum
+                                    deleniti sint expedita, facilis ipsam voluptates recusandae molestiae nulla tempora
+                                    consequatur,
+                                    totam id velit consequuntur et. Nemo voluptates magnam optio suscipit, hic nobis
+                                    fuga magni
+                                    iusto vel labore esse incidunt consequuntur architecto distinctio. Culpa, nobis? At
+                                    doloremque
+                                    <mark class="bg-primary">fugiat vero. Hic , itaque! Incidunt debitis doloremque
+                                        cumque </mark>
+                                    molestias corrupti
+                                    ipsa, provident
+                                    veritatis veniam sequi explicabo, tempora voluptate alias commodi autem hic ex magni
+                                    vel! Eos,
+                                    voluptas atque cumque ex quo omnis a. Itaque fuga reprehenderit, earum ipsum
+                                    temporibus corporis
+                                    necessitatibus doloribus laborum iste rem natus vero et repellat hic eveniet saepe
+                                    cupiditate
+                                    facilis at voluptatum error dicta dolorem ad? Sapiente inventore nihil vero
+                                    assumenda adipisci
+                                    non voluptate rerum fugiat, esse officia possimus ab perspiciatis corporis
+                                    voluptates
+                                    repudiandae, optio dignissimos, culpa deleniti et pariatur? Maxime quisquam libero
+                                    quod, eos
+                                    distinctio perspiciatis explicabo enim blanditiis molestiae adipisci facilis aperiam
+                                    quo saepe
+                                    praesentium, architecto soluta porro aspernatur nisi hic aliquam dolorem placeat.
+                                    Vitae, ullam
+                                    consequuntur vero deleniti eum laudantium optio sit officiis iure quibusdam? Dolorum
+                                    inventore
+                                    corrupti rem excepturi cupiditate voluptates placeat ex, quasi, maiores est quae
+                                    totam. Nam
+                                    consequatur est veritatis commodi maiores molestias dolorum. Dolores laboriosam
+                                    fugiat explicabo
+                                    est consectetur non dicta alias, atque aut officia iure repudiandae accusamus magnam
+                                    minima
+                                    perspiciatis!
+                                </p>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-Importance-of-User-Centered-Design" role="tabpanel"
+                    aria-labelledby="v-pills-Importance-of-User-Centered-Design-tab" tabindex="1">
+                    <div class="container my-5">
+                        <h1>Importance of User-Centered Design </h1>
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <video src="" poster="assets/img/home-img/video-1.png" class="w-100 "></video>
+                            </div>
+                            <article class="col-12 my-3">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste at libero error!
+                                    Deleniti, optio
+                                    eius dolore sunt et, quaerat debitis quia accusantium blanditiis culpa nesciunt,
+                                    alias
+                                    praesentium doloribus. Soluta consequatur modi porro commodi iusto nulla cum esse
+                                    suscipit
+                                    architecto sunt libero autem ex aliquid incidunt eius laudantium voluptates aliquam,
+                                    qui nobis,
+                                    unde dolorem ratione neque? Corporis, quasi! Optio, velit iste. Labore suscipit
+                                    voluptas,
+                                    blanditiis quas aut quibusdam incidunt eaque molestiae delectus nihil quam illum
+                                    asperiores
+                                    aliquam ea totam, sit vel animi reprehenderit neque, laborum modi non tenetur
+                                    commodi maiores?
+                                    Voluptas ab maxime repellendus minima voluptatem aperiam fugiat porro laudantium
+                                    amet nostrum
+                                    deleniti sint expedita, facilis ipsam voluptates recusandae molestiae nulla tempora
+                                    consequatur,
+                                    totam id velit consequuntur et. Nemo voluptates magnam optio suscipit, hic nobis
+                                    fuga magni
+                                    iusto vel labore esse incidunt consequuntur architecto distinctio. Culpa, nobis? At
+                                    doloremque
+                                    <mark class="bg-primary">fugiat vero. Hic , itaque! Incidunt debitis doloremque
+                                        cumque </mark>
+                                    molestias corrupti
+                                    ipsa, provident
+                                    veritatis veniam sequi explicabo, tempora voluptate alias commodi autem hic ex magni
+                                    vel! Eos,
+                                    voluptas atque cumque ex quo omnis a. Itaque fuga reprehenderit, earum ipsum
+                                    temporibus corporis
+                                    necessitatibus doloribus laborum iste rem natus vero et repellat hic eveniet saepe
+                                    cupiditate
+                                    facilis at voluptatum error dicta dolorem ad? Sapiente inventore nihil vero
+                                    assumenda adipisci
+                                    non voluptate rerum fugiat, esse officia possimus ab perspiciatis corporis
+                                    voluptates
+                                    repudiandae, optio dignissimos, culpa deleniti et pariatur? Maxime quisquam libero
+                                    quod, eos
+                                    distinctio perspiciatis explicabo enim blanditiis molestiae adipisci facilis aperiam
+                                    quo saepe
+                                    praesentium, architecto soluta porro aspernatur nisi hic aliquam dolorem placeat.
+                                    Vitae, ullam
+                                    consequuntur vero deleniti eum laudantium optio sit officiis iure quibusdam? Dolorum
+                                    inventore
+                                    corrupti rem excepturi cupiditate voluptates placeat ex, quasi, maiores est quae
+                                    totam. Nam
+                                    consequatur est veritatis commodi maiores molestias dolorum. Dolores laboriosam
+                                    fugiat explicabo
+                                    est consectetur non dicta alias, atque aut officia iure repudiandae accusamus magnam
+                                    minima
+                                    perspiciatis!
+                                </p>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-Understanding-UI-UX-Design-Principles1" role="tabpanel"
+                    aria-labelledby="v-pills-Understanding-UI-UX-Design-Principles-tab1" tabindex="2">
+                    <div class="container my-5">
+                        <h1>Understanding UI/UX Design Principles</h1>
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <video src="" poster="assets/img/courses-img/video-2.png" class="w-100 "></video>
+                            </div>
+                            <article class="col-12 my-3">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste at libero error!
+                                    Deleniti, optio
+                                    eius dolore sunt et, quaerat debitis quia accusantium blanditiis culpa nesciunt,
+                                    alias
+                                    praesentium doloribus. Soluta consequatur modi porro commodi iusto nulla cum esse
+                                    suscipit
+                                    architecto sunt libero autem ex aliquid incidunt eius laudantium voluptates aliquam,
+                                    qui nobis,
+                                    unde dolorem ratione neque? Corporis, quasi! Optio, velit iste. Labore suscipit
+                                    voluptas,
+                                    blanditiis quas aut quibusdam incidunt eaque molestiae delectus nihil quam illum
+                                    asperiores
+                                    aliquam ea totam, sit vel animi reprehenderit neque, laborum modi non tenetur
+                                    commodi maiores?
+                                    Voluptas ab maxime repellendus minima voluptatem aperiam fugiat porro laudantium
+                                    amet nostrum
+                                    deleniti sint expedita, facilis ipsam voluptates recusandae molestiae nulla tempora
+                                    consequatur,
+                                    totam id velit consequuntur et. Nemo voluptates magnam optio suscipit, hic nobis
+                                    fuga magni
+                                    iusto vel labore esse incidunt consequuntur architecto distinctio. Culpa, nobis? At
+                                    doloremque
+                                    <mark class="bg-primary">fugiat vero. Hic , itaque! Incidunt debitis doloremque
+                                        cumque </mark>
+                                    molestias corrupti
+                                    ipsa, provident
+                                    veritatis veniam sequi explicabo, tempora voluptate alias commodi autem hic ex magni
+                                    vel! Eos,
+                                    voluptas atque cumque ex quo omnis a. Itaque fuga reprehenderit, earum ipsum
+                                    temporibus corporis
+                                    necessitatibus doloribus laborum iste rem natus vero et repellat hic eveniet saepe
+                                    cupiditate
+                                    facilis at voluptatum error dicta dolorem ad? Sapiente inventore nihil vero
+                                    assumenda adipisci
+                                    non voluptate rerum fugiat, esse officia possimus ab perspiciatis corporis
+                                    voluptates
+                                    repudiandae, optio dignissimos, culpa deleniti et pariatur? Maxime quisquam libero
+                                    quod, eos
+                                    distinctio perspiciatis explicabo enim blanditiis molestiae adipisci facilis aperiam
+                                    quo saepe
+                                    praesentium, architecto soluta porro aspernatur nisi hic aliquam dolorem placeat.
+                                    Vitae, ullam
+                                    consequuntur vero deleniti eum laudantium optio sit officiis iure quibusdam? Dolorum
+                                    inventore
+                                    corrupti rem excepturi cupiditate voluptates placeat ex, quasi, maiores est quae
+                                    totam. Nam
+                                    consequatur est veritatis commodi maiores molestias dolorum. Dolores laboriosam
+                                    fugiat explicabo
+                                    est consectetur non dicta alias, atque aut officia iure repudiandae accusamus magnam
+                                    minima
+                                    perspiciatis!
+                                </p>
+
+                            </article>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-Importance-of-User-Centered-Design1" role="tabpanel"
+                    aria-labelledby="v-pills-Importance-of-User-Centered-Design-tab1" tabindex="3">
+                    <div class="container my-5">
+                        <h1>Importance of User-Centered Design </h1>
+                        <div class="row">
+                            <div class="col-12 my-3">
+                                <video src="" poster="assets/img/home-img/video-1.png" class="w-100 "></video>
+                            </div>
+                            <article class="col-12 my-3">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste at libero error!
+                                    Deleniti, optio
+                                    eius dolore sunt et, quaerat debitis quia accusantium blanditiis culpa nesciunt,
+                                    alias
+                                    praesentium doloribus. Soluta consequatur modi porro commodi iusto nulla cum esse
+                                    suscipit
+                                    architecto sunt libero autem ex aliquid incidunt eius laudantium voluptates aliquam,
+                                    qui nobis,
+                                    unde dolorem ratione neque? Corporis, quasi! Optio, velit iste. Labore suscipit
+                                    voluptas,
+                                    blanditiis quas aut quibusdam incidunt eaque molestiae delectus nihil quam illum
+                                    asperiores
+                                    aliquam ea totam, sit vel animi reprehenderit neque, laborum modi non tenetur
+                                    commodi maiores?
+                                    Voluptas ab maxime repellendus minima voluptatem aperiam fugiat porro laudantium
+                                    amet nostrum
+                                    deleniti sint expedita, facilis ipsam voluptates recusandae molestiae nulla tempora
+                                    consequatur,
+                                    totam id velit consequuntur et. Nemo voluptates magnam optio suscipit, hic nobis
+                                    fuga magni
+                                    iusto vel labore esse incidunt consequuntur architecto distinctio. Culpa, nobis? At
+                                    doloremque
+                                    <mark class="bg-primary">fugiat vero. Hic , itaque! Incidunt debitis doloremque
+                                        cumque </mark>
+                                    molestias corrupti
+                                    ipsa, provident
+                                    veritatis veniam sequi explicabo, tempora voluptate alias commodi autem hic ex magni
+                                    vel! Eos,
+                                    voluptas atque cumque ex quo omnis a. Itaque fuga reprehenderit, earum ipsum
+                                    temporibus corporis
+                                    necessitatibus doloribus laborum iste rem natus vero et repellat hic eveniet saepe
+                                    cupiditate
+                                    facilis at voluptatum error dicta dolorem ad? Sapiente inventore nihil vero
+                                    assumenda adipisci
+                                    non voluptate rerum fugiat, esse officia possimus ab perspiciatis corporis
+                                    voluptates
+                                    repudiandae, optio dignissimos, culpa deleniti et pariatur? Maxime quisquam libero
+                                    quod, eos
+                                    distinctio perspiciatis explicabo enim blanditiis molestiae adipisci facilis aperiam
+                                    quo saepe
+                                    praesentium, architecto soluta porro aspernatur nisi hic aliquam dolorem placeat.
+                                    Vitae, ullam
+                                    consequuntur vero deleniti eum laudantium optio sit officiis iure quibusdam? Dolorum
+                                    inventore
+                                    corrupti rem excepturi cupiditate voluptates placeat ex, quasi, maiores est quae
+                                    totam. Nam
+                                    consequatur est veritatis commodi maiores molestias dolorum. Dolores laboriosam
+                                    fugiat explicabo
+                                    est consectetur non dicta alias, atque aut officia iure repudiandae accusamus magnam
+                                    minima
+                                    perspiciatis!
+                                </p>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <button class="default-btn" id="pr">prev-lesson</button>
+                    <button class="brand-btn" id="nx">next-lesson</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer mt-5">
+        <div class="container-lg ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 ">
+                    <ul class="contact">
+                        <a href="#"> <img src="assets/img/E-learning.svg" alt="E-learning"></a>
+                        <li><a href="mailto:"><i class="fa-solid fa-envelope"></i> hamza@gmail.com</a></li>
+                        <li><a href="tel:+"><i class="fa-solid fa-phone"></i>0933567</a></li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/Syria"><i
+                                    class="fa-solid fa-location-dot"></i>syria</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="home ">Home
+                        <li><a href="home.html#benefits">Benefits<div class="line"></div></a></li>
+                        <li><a href="home.html#courses">Our Courses<div class="line"></div></a></li>
+                        <li><a href="home.html#testimonials">Our Testimonials<div class="line"></div></a></li>
+                        <li><a href="home.html#FAQ">Our FAQ<div class="line"></div></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="about-us ">About Us
+                        <li><a href="About-us.html#">Company<div class="line"></div></a></li>
+                        <li><a href="About-us.html#achievements">Achievements<div class="line"></div></a></li>
+                        <li><a href="About-us.html#goal">Our Goal<div class="line"></div></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 ">
+                    <ul class=" gap-2 social-contact ">
+                        Social profiles
+                        <div class="d-flex gap-2 align-items-center text-center">
+                            <li><a href="#"><i class="fa-brands fa-square-facebook "></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-top border-3 py-3 text-muted"><cite>&copy; 2023 Skillbridge. All rights
+                    reserved.</cite>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/java/java.js"></script>
+    <script src="assets/java/leson.js"></script>
+
+
+</body>
+
+</html>

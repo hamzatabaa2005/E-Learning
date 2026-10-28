@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in
+
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/sign-up.css">
+
+
+</head>
+
+
+
+<body>
+    <header>
+        <div class="container-fluid my-2">
+            <div class="bg-primary  text-center rounded-2 py-1">
+                <a href="pricing.html" class="text-light sales">Free courses <i
+                        class="fa-solid fa-star text-warning"></i> sale
+                    ends soon
+                    ,get it Now <i class="fa-solid fa-arrow-right "></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="container-lg">
+
+                <a class="navbar-brand " href="home.html"><img src="assets/img/E-learning.svg"
+                        alt="E-learning logo"></a>
+                <div class="d-flex gap-2 order-lg-1 ">
+                    <div class="d-flex align-items-center gap-3 ">
+                        <button id="language" class="brand-btn rounded-circle">ar</button>
+                        <button class="night-mood" id="change_mood">
+                            <i class="fa-regular fa-sun"></i>
+                            <i class="fa-regular fa-moon"></i>
+                        </button>
+                        <a href="sign-up.html" class="sing-up-btn ">Sign Up</a>
+                        <a href="#" class="brand-btn">Login</a>
+                    </div>
+
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact-us.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="company-gallary.html">company</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+        </nav>
+
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 my-2">
+                    <h1>Online Courses on Design and Development</h1>
+                </div>
+                <div class="col-lg-6 my-2">
+                    <p>Welcome to our online course page, where you can enhance your skills in design and development.
+                        Choose from our carefully curated selection of 10 courses designed to provide you with
+                        comprehensive knowledge and practical experience. Explore the courses below and find the perfect
+                        fit for your learning journey.</p>
+                </div>
+            </div>
+        </section>
+
+
+    </header>
+
+    <main>
+        <div class="container my-5">
+            <div class="row g-3">
+
+                <div class="col-lg-6 col-md-6 my-3" data-aos="flip-left" data-aos-duration="1000">
+                    <form class=" bg-white p-3 my-3 card-rounded-md ">
+                        <div class="text-center">
+                            <h2>Log in</h2>
+                            <p>Welcome back! Please log in to access your account.</p>
+                        </div>
+                        <div class=" my-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control " id="email" placeholder="enter your email"
+                                required>
+                        </div>
+                        <div class=" my-2 position-relative">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control " id="password"
+                                placeholder="Enter Your password " required maxlength="12">
+                            <button type="button" id="showHidePass" class="showHidePass">
+                                <i id="viewicon" class="fa-regular fa-eye"></i>
+                                <i id="hideicon" class="fa-regular fa-eye-slash d-none"></i>
+                            </button>
+
+                        </div>
+                        <div class="my-2  text-end"> <a href="foreget-password.html">forget
+                                password?</a>
+                        </div>
+                        <div class=" my-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class=" my-2">
+                            <button type="submit" class="btn brand-btn w-100">login</button>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <hr class="bg-black w-50 mx-2">
+                            <p>or</p>
+                            <hr class="bg-black w-50 mx-2">
+                        </div>
+                        <div class=" my-2">
+                            <a href="#" class="btn default-btn w-100"><img src="assets/img/Icon.svg" alt=""> log in with
+                                google</a>
+                        </div>
+                        <div class="my-2 d-flex gap-2 justify-content-center">
+                            <p>dont have account </p><a href="sign-up.html">sing up<i
+                                    class="fa-solid fa-location-arrow "></i></a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-6 col-md-6 order-lg-first order-md-first my-3">
+                    <h2>Students Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu
+                        sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
+
+                    <div class="swiper testimonials-swiper my-3">
+                        <div class="swiper-wrapper ">
+
+                            <div class="swiper-slide" data-aos="zoom-in">
+                                <div class="testimonials-card d-flex flex-column">
+                                    <p>The web design course provided a solid foundation for me. The instructors were
+                                        knowledgeable
+                                        and supportive, and the interactive learning environment was engaging. I highly
+                                        recommend
+                                        it!</p>
+                                    <div
+                                        class="testimonials-card-info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="testimonials-avatar">
+                                                <img src="assets/img/home-img/testimonials-1.png" alt="sarah">
+
+                                            </div>
+                                            <p>Sarah</p>
+                                        </div>
+                                        <a href="#" class="rounded-3 default-btn bg-dark-white">Read Full Story</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="zoom-in">
+                                <div class="testimonials-card d-flex flex-column">
+                                    <p>The web design course provided a solid foundation for me. The instructors were
+                                        knowledgeable
+                                        and supportive, and the interactive learning environment was engaging. I highly
+                                        recommend
+                                        it!</p>
+                                    <div
+                                        class="testimonials-card-info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="testimonials-avatar">
+                                                <img src="assets/img/home-img/testimonials-2.png" alt="sarah">
+
+                                            </div>
+                                            <p>Emily R</p>
+                                        </div>
+                                        <a href="#" class="rounded-3 default-btn bg-dark-white">Read Full Story</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="zoom-in">
+                                <div class="testimonials-card d-flex flex-column">
+                                    <p>The web design course provided a solid foundation for me. The instructors were
+                                        knowledgeable
+                                        and supportive, and the interactive learning environment was engaging. I highly
+                                        recommend
+                                        it!</p>
+                                    <div
+                                        class="testimonials-card-info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="testimonials-avatar">
+                                                <img src="assets/img/home-img/testimonials-3.png" alt="sarah">
+
+                                            </div>
+                                            <p>Jason M</p>
+                                        </div>
+                                        <a href="#" class="rounded-3 default-btn bg-dark-white">Read Full Story</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="zoom-in">
+                                <div class="testimonials-card d-flex flex-column">
+                                    <p>The web design course provided a solid foundation for me. The instructors were
+                                        knowledgeable
+                                        and supportive, and the interactive learning environment was engaging. I highly
+                                        recommend
+                                        it!</p>
+                                    <div
+                                        class="testimonials-card-info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex align-items-center gap-3">
+                                            <div class="testimonials-avatar">
+                                                <img src="assets/img/home-img/testimonials-4.png" alt="sarah">
+
+                                            </div>
+                                            <p>Michael K</p>
+                                        </div>
+                                        <a href="#" class="rounded-3 default-btn bg-dark-white">Read Full Story</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-end my-5 gap-3">
+                            <div class="swiper-button-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                    <path
+                                        d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z" />
+                                </svg>
+                            </div>
+                            <div class="swiper-button-next">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                                    <path
+                                        d="M566.6 342.6C579.1 330.1 579.1 309.8 566.6 297.3L406.6 137.3C394.1 124.8 373.8 124.8 361.3 137.3C348.8 149.8 348.8 170.1 361.3 182.6L466.7 288L96 288C78.3 288 64 302.3 64 320C64 337.7 78.3 352 96 352L466.7 352L361.3 457.4C348.8 469.9 348.8 490.2 361.3 502.7C373.8 515.2 394.1 515.2 406.6 502.7L566.6 342.7z" />
+                                </svg>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-5">
+        <div class="container-lg ">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 ">
+                    <ul class="contact">
+                        <a href="#"> <img src="assets/img/E-learning.svg" alt="E-learning"></a>
+                        <li><a href="mailto:"><i class="fa-solid fa-envelope"></i> hamza@gmail.com</a></li>
+                        <li><a href="tel:+"><i class="fa-solid fa-phone"></i>0933567</a></li>
+                        <li>
+                            <a href="https://www.google.com/maps/place/Syria"><i
+                                    class="fa-solid fa-location-dot"></i>syria</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="home ">Home
+                        <li><a href="home.html#benefits">Benefits<div class="line"></div></a></li>
+                        <li><a href="home.html#courses">Our Courses<div class="line"></div></a></li>
+                        <li><a href="home.html#testimonials">Our Testimonials<div class="line"></div></a></li>
+                        <li><a href="home.html#FAQ">Our FAQ<div class="line"></div></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 col-6">
+                    <ul class="about-us ">About Us
+                        <li><a href="About-us.html#">Company<div class="line"></div></a></li>
+                        <li><a href="About-us.html#achievements">Achievements<div class="line"></div></a></li>
+                        <li><a href="About-us.html#goal">Our Goal<div class="line"></div></a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2 ">
+                    <ul class=" gap-2 social-contact ">
+                        Social Profiles
+                        <div class="d-flex gap-2 align-items-center text-center">
+                            <li><a href="#"><i class="fa-brands fa-square-facebook "></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center border-top border-3 py-3 text-muted"><cite>&copy; 2023 Skillbridge. All rights
+                    reserved.</cite>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="assets/java/java.js"></script>
+    <script src="assets/java/form.js"></script>
+
+    <script>
+        const swiper = new Swiper('.testimonials-swiper', {
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+
+        });
+    </script>
+
+
+
+</body>
+
+</html>
